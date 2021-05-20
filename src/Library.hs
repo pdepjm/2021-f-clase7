@@ -97,35 +97,6 @@ miMap transformar (x:xs) = transformar x : miMap transformar xs
 
 
 
-
-
-
-
--- miMap :: ??? -> ???
--- miMap ??? = ???
--- miMap ??? = ???
-
--- miFilter :: ??? -> ???
--- miFilter ??? = ???
--- miFilter ??? = ???
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 data Mascota = UnaMascota {
   nombre :: String,
   especie :: Especie,
@@ -185,44 +156,5 @@ subirSueldo _ = 1 --imaginen que esto tiene efecto
 
 -- Si yo tuviera EFECTO, no podría tener lazy evaluation.
 -- C decidió tener efecto, por eso es importante evaluar todo (evaluar ansiosamente).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--- miMaximum:: ??? -> ???
--- miMaximum ??? = ???
-
-
-
-
-
-
-
-
-
-
 
 
